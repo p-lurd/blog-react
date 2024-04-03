@@ -11,14 +11,23 @@ const Home = () => {
       author: "mario",
       id: 3,
     },
-  ]);
+  ]); // blog useState should initially be null so as to allow fetching
 
-  const handleDelete = (id) => {
-    const newBlogs = blogs.filter(blog => blog.id !== id);
-    setBlogs(newBlogs);
-  }
+  const [isPending, setIsPending] = useState(true);
+
+  useEffect(() => {
+      fetch('blogs') // use your api end point instead
+      .then(res => {
+        return res.json();
+      })
+      .then(data => {
+        setIsPending(false);
+        setBlogs(data);
+      })
+  }, [])
   return <div className="home">
-    <BlogList blogs ={blogs} handleDelete={handleDelete}/>
+     { isPending && <div>Loading...</div> }
+     {blogs && <BlogList blogs={blogs} />}
   </div>;
 };
 
