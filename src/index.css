@@ -47,3 +47,35 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+.create{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.create h2{
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  display: block;
+  box-sizing: border-box;
+  border:1px solid rgb(197, 190, 190);
+  border-radius: 8px;
+}
+.create button{
+  padding: 5px 7px;
+  color: #f2f2f2;
+  background-color: #f1356d;
+  border: #ffffff;
+  border-radius: 8px;
+}
+.create p{
+  margin-top: 10px;
+}

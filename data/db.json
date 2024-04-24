@@ -4,19 +4,31 @@
       "title": "My new website",
       "body": "lorem ipsum...",
       "author": "Tee",
-      "id": 1
+      "id": "1"
     },
     {
       "title": "Welcome party!",
       "body": "lorem ipsum...",
       "author": "Jay",
-      "id": 2
+      "id": "2"
     },
     {
       "title": "Web dev top tips",
       "body": "lorem ipsum...",
       "author": "Eeee",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "e42d",
+      "title": "omlslcc",
+      "author": "m wkdn qdk",
+      "body": "wd knqeoqnoeqoo"
+    },
+    {
+      "id": "c2d8",
+      "title": "k fwf",
+      "author": "k kfk f",
+      "body": "csmwdowwdnlrk fk f"
     }
   ]
 }
